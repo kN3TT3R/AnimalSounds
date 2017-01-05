@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     let meowSound = SimpleSound(named:"meow")
     let woofSound = SimpleSound(named:"woof")
     let mooSound = SimpleSound(named:"moo")
+    let f = SimpleSound(named: <#T##String#>)
     
 
     @IBOutlet weak var animalSoundLabel: UILabel!
